@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form Control</h1>
+    <div class="box">
+        <form action="" id="formControl">
+            <fieldset>
+                <legend>Form Control</legend>
+                <label for="text">Name</label>
+                <input type="text" name="text" id="text" required>
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+                <label for="fontSize">Font Size</label>
+                <input type="range" name="fontSize" id="fontSize" min="10" max="100" value="10">
+                <label for="fontFamily">Font Family</label>
+                <select name="fontFamily" id="fontFamily">
+                    <option value="Arial">Arial</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="Lucida Console">Lucida Console</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Impact">Impact</option>
+                </select>
+                <button id="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="text">
+        <p id="inputText">Say something in the input text</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

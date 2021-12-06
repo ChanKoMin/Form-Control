@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+.box {
+    margin-top: 50px;
+    text-align: center;
+}
+fieldset {
+    display: inline-block;
+    border-radius: 5px;
+}
+.text {
+    text-align: center;
+}
